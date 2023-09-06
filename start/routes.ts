@@ -6,4 +6,5 @@ Route.group(() => {
   })
 
   Route.resource('/tasks', 'TasksController').apiOnly()
+  Route.put('tasks/:id/update-status', 'TasksController.updateStatus')
 }).prefix('/api')
