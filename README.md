@@ -25,7 +25,7 @@ DB_PASSWORD=sua_senha
 DB_DATABASE=db_teste_enliv
 ```
 
-Certifique-se de substituir `seu_usuario`, `sua_senha` e `nome_do_banco` pelas informações corretas do seu ambiente PostgreSQL.
+Certifique-se de substituir `seu_usuario` e `sua_senha` pelas informações corretas do seu ambiente PostgreSQL.
 
 ### 2. Criando o banco de dados PostgreSQL
 
@@ -55,7 +55,7 @@ Isso executará todas as seeds definidas no seu projeto.
 
 ## Executando o Projeto
 
-Após configurar seu projeto Adonis.js e aplicar migrações e seeds (se necessário), você pode iniciar o servidor de desenvolvimento com o seguinte comando:
+Após configurar seu projeto Adonis.js e aplicar migrações e seeds, você pode iniciar o servidor de desenvolvimento com o seguinte comando:
 
 ```bash
 npm run dev
@@ -65,6 +65,6 @@ Isso iniciará o servidor na porta padrão `3333`. Você pode acessar a API em `
 
 ## Conclusão
 
-Agora você tem uma API Adonis.js configurada e em execução, com migrações e seeds aplicadas conforme necessário. Você pode começar a desenvolver seus endpoints e lógica de negócios.
+Agora você tem uma API Adonis.js configurada e em execução!
 
 Lembre-se de consultar a [documentação oficial do Adonis.js](https://adonisjs.com/docs) para obter mais informações sobre como usar o framework.
