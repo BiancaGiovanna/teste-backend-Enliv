@@ -1,5 +1,5 @@
 import { DateTime } from 'luxon'
-import { BaseModel, column } from '@ioc:Adonis/Lucid/Orm'
+import { BaseModel, beforeCreate, column } from '@ioc:Adonis/Lucid/Orm'
 
 export default class Task extends BaseModel {
   @column({ isPrimary: true })
@@ -13,6 +13,11 @@ export default class Task extends BaseModel {
 
   @column()
   public status: boolean
+
+  @beforeCreate()
+  public static setDefaultCompleted(task: Task) {
+    task.status = false
+  }
 
   @column.dateTime({ autoCreate: true })
   public createdAt: DateTime
