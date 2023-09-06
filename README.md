@@ -1,5 +1,7 @@
 # Documentação da API Adonis.js
 
+## [Documentação do POSTMAN](https://documenter.getpostman.com/view/13543714/2s9YBz1aEE)
+
 Esta documentação fornece instruções passo a passo sobre como configurar e executar a API do teste tecnico, incluindo a criação de migrações e seeds.
 
 ## Pré-requisitos
